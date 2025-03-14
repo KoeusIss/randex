@@ -24,7 +24,7 @@ defmodule Randex.MixProject do
 
   defp deps do
     [
-      {:stream_data, "~> 0.4", optional: true},
+      {:stream_data, "~> 1.1", optional: true},
       {:ex_doc, "~> 0.15.0", only: :dev}
     ]
   end
